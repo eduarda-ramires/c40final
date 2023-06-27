@@ -30,7 +30,7 @@ class Game {
 
     cars = [car1, car2];
 
-    // C38 AP
+    // C40 ALUNO
     fuels = new Group();
     powerCoins = new Group();
 
@@ -41,7 +41,7 @@ class Game {
     this.addSprites(powerCoins, 18, powerCoinImage, 0.09);
   }
 
-  // C38 AP
+  // C40 PROFESSORA
   addSprites(spriteGroup, numberOfSprites, spriteImage, scale) {
     for (var i = 0; i < numberOfSprites; i++) {
       var x, y;
